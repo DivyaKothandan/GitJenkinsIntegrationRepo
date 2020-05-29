@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30574" started-at="2020-05-29T09:24:22Z" finished-at="2020-05-29T09:24:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30574" started-at="2020-05-29T09:24:22Z" finished-at="2020-05-29T09:24:53Z">
+      <class name="testCases.FreeCRMLogin">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testCases.FreeCRMLogin@61832929]" name="beforemethod" is-config="true" duration-ms="18863" started-at="2020-05-29T09:24:22Z" finished-at="2020-05-29T09:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testCases.FreeCRMLogin@61832929]" name="login" is-config="true" duration-ms="6105" started-at="2020-05-29T09:24:41Z" finished-at="2020-05-29T09:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="calenderLink()[pri:0, instance:testCases.FreeCRMLogin@61832929]" name="calenderLink" duration-ms="1454" started-at="2020-05-29T09:24:47Z" finished-at="2020-05-29T09:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calenderLink -->
+        <test-method status="PASS" signature="contactLink()[pri:1, instance:testCases.FreeCRMLogin@61832929]" name="contactLink" duration-ms="486" started-at="2020-05-29T09:24:49Z" finished-at="2020-05-29T09:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactLink -->
+        <test-method status="PASS" signature="companiesLink()[pri:2, instance:testCases.FreeCRMLogin@61832929]" name="companiesLink" duration-ms="101" started-at="2020-05-29T09:24:49Z" finished-at="2020-05-29T09:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- companiesLink -->
+        <test-method status="PASS" signature="logoff()[pri:0, instance:testCases.FreeCRMLogin@61832929]" name="logoff" is-config="true" duration-ms="2527" started-at="2020-05-29T09:24:49Z" finished-at="2020-05-29T09:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoff -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:testCases.FreeCRMLogin@61832929]" name="aftermethod" is-config="true" duration-ms="992" started-at="2020-05-29T09:24:52Z" finished-at="2020-05-29T09:24:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- testCases.FreeCRMLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
