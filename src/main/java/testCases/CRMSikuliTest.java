@@ -12,14 +12,14 @@ public class CRMSikuliTest {
 
 	public static void main(String[] args) throws Exception {
 		
-		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+		/*DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 		  
-		capabilities.setCapability(CapabilityType.BROWSER_NAME, "CHROME");
-		/*capabilities.setCapability(ChromeDriver.
+		capabilities.setCapability(CapabilityType.BROWSER_NAME, "chrome");
+		capabilities.setCapability(ChromeDriver.
 		  INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);*/
 		
 		System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe");
-		WebDriver driver = new RemoteWebDriver(capabilities);
+		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
 		driver.get("https://freecrm.co.in/");
